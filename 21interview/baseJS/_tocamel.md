@@ -15,7 +15,7 @@ function getCamelCase(str) {
         if (index === 0) {
             return item;
         } else {
-           return item.chartAt(0).toUpperCase() + item.slice(1); 
+           return item.charAt(0).toUpperCase() + item.slice(1); 
         }
     }).join('');
 }
